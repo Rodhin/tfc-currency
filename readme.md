@@ -8,7 +8,7 @@ This is an addon for [TerraFirmaCraft TNG](https://github.com/TerraFirmaCraft/Te
 
 - Clay molds for early coin making with a slightly smaller yield (maybe 2-3 coins / 100 units instead of 5)
 
-- Coin exchanging (example: 100 copper to 1 silver unshaed recipe)
+- Coin exchanging (example: 100 copper to 1 silver unshaped recipe)
 
 - Configuration for all the above and the yield rate.
 
