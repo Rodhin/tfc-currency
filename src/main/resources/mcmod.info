@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "tfc_currency",
+    "name": "TFC Currency",
+    "description": "Add mintable currencies to your TFC experience.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "rodhin"
+    ],
+    "credits": "The TFC:TNG Devs for all their help and guidance.",
+    "logoFile": "",
+    "screenshots": [],
+    "requiredMods": [ "terrafirmacraft" ],
+    "dependencies": [ "terrafirmacraft" ]
+  }
+]
