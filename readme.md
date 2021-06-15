@@ -1,5 +1,5 @@
 # TFC Currency
-This is an addon for [TerraFirmaCraft TNG](https://github.com/TerraFirmaCraft/TerraFirmaCraftTerraFirmaCraft) adding currency related items to the game. Currently there are 3 coin tiers: Copper, Silver and Gold Coins that are craftable in the TFC Anvil from metal sheets. Currently each sheet adds 10 coins.
+This is an addon for [TerraFirmaCraft TNG](https://github.com/TerraFirmaCraft/TerraFirmaCraft) adding currency related items to the game. Currently there are 3 coin tiers: Copper, Silver and Gold Coins that are craftable in the TFC Anvil from metal sheets. Currently each sheet adds 10 coins.
 
 
 ### Planned features:
