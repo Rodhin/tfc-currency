@@ -13,7 +13,7 @@ public class Main {
 
     public static final String MOD_ID = "tfc_currency";
     public static final String MOD_NAME = "TFC Currency";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
 
     @SidedProxy(clientSide = "hu.hgn.tfc_currency.proxy.ClientProxy", serverSide = "hu.hgn.tfc_currency.proxy.CommonProxy")
     public static CommonProxy proxy;
