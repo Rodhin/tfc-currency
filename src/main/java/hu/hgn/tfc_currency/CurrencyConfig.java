@@ -21,9 +21,27 @@ public final class CurrencyConfig {
     @Config.LangKey("config." + Main.MOD_ID + ".yield_rate")
     public static final YieldCFG YIELD = new YieldCFG();
 
+    @Config.Comment("Enabled coin metals")
+    @Config.LangKey("config." + Main.MOD_ID + ".coin_metals")
+    public static final MetalsCFG METALS = new MetalsCFG();
+
     public static class YieldCFG {
         @Config.Comment("Yield rate per 100 units of metal when crafting on the anvil (from metal sheet, 1 sheet contains 200 units of metal). Default: 5")
         @Config.LangKey("config." + Main.MOD_ID + ".yield_rate.anvil")
         public int AnvilYieldRate = 5;
+    }
+
+    public static class MetalsCFG {
+        @Config.Comment("Enable copper coins. Default: true")
+        @Config.LangKey("config." + Main.MOD_ID + ".coin_metals.copper")
+        public boolean Copper = true;
+
+        @Config.Comment("Enable silver coins. Default: true")
+        @Config.LangKey("config." + Main.MOD_ID + ".coin_metals.silver")
+        public boolean Silver = true;
+
+        @Config.Comment("Enable gold coins. Default: true")
+        @Config.LangKey("config." + Main.MOD_ID + ".coin_metals.gold")
+        public boolean Gold = true;
     }
 }

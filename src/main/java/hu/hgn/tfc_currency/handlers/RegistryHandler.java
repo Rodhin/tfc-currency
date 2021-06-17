@@ -43,9 +43,9 @@ public class RegistryHandler {
         IForgeRegistry<AnvilRecipe> registry = event.getRegistry();
         ForgeRule[] coinRules = new ForgeRule[] {ForgeRule.BEND_LAST, ForgeRule.DRAW_SECOND_LAST, ForgeRule.DRAW_THIRD_LAST};
 
-        addAnvil(registry, DefaultMetals.COPPER, ModItems.COPPER_COIN, coinRules);
-        addAnvil(registry, DefaultMetals.SILVER, ModItems.SILVER_COIN, coinRules);
-        addAnvil(registry, DefaultMetals.GOLD, ModItems.GOLD_COIN, coinRules);
+        if (CurrencyConfig.METALS.Copper) addAnvil(registry, DefaultMetals.COPPER, ModItems.COPPER_COIN, coinRules);
+        if (CurrencyConfig.METALS.Silver) addAnvil(registry, DefaultMetals.SILVER, ModItems.SILVER_COIN, coinRules);
+        if (CurrencyConfig.METALS.Gold) addAnvil(registry, DefaultMetals.GOLD, ModItems.GOLD_COIN, coinRules);
     }
 
     private static void addAnvil(IForgeRegistry<AnvilRecipe> registry, ResourceLocation material, ItemTFC item, ForgeRule[] forgeRules) {
