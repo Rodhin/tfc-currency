@@ -1,5 +1,6 @@
 package hu.hgn.tfc_currency.handlers;
 
+import hu.hgn.tfc_currency.CurrencyConfig;
 import net.dries007.tfc.api.recipes.anvil.AnvilRecipe;
 import hu.hgn.tfc_currency.init.ModItems;
 import hu.hgn.tfc_currency.utils.IHasModel;
@@ -49,7 +50,7 @@ public class RegistryHandler {
 
     private static void addAnvil(IForgeRegistry<AnvilRecipe> registry, ResourceLocation material, ItemTFC item, ForgeRule[] forgeRules) {
         IIngredient<ItemStack> ingredient = IIngredient.of(new ItemStack(ItemMetal.get(Objects.requireNonNull(TFCRegistries.METALS.getValue(material)), Metal.ItemType.SHEET)));
-        ItemStack output = new ItemStack(item, 10);
+        ItemStack output = new ItemStack(item, CurrencyConfig.YIELD.AnvilYieldRate * 2);
 
         registry.register(new AnvilRecipe(
                 Objects.requireNonNull(item.getRegistryName()),
