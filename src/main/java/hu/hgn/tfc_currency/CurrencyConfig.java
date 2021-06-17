@@ -43,5 +43,9 @@ public final class CurrencyConfig {
         @Config.Comment("Enable gold coins. Default: true")
         @Config.LangKey("config." + Main.MOD_ID + ".coin_metals.gold")
         public boolean Gold = true;
+
+        @Config.Comment("Enable platinum coins. Default: true")
+        @Config.LangKey("config." + Main.MOD_ID + ".coin_metals.platinum")
+        public boolean Platinum = true;
     }
 }

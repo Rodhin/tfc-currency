@@ -13,4 +13,5 @@ public class ModItems {
     public static final ItemTFC COPPER_COIN = CurrencyConfig.METALS.Copper ? new ItemBase("coin_copper") : null;
     public static final ItemTFC SILVER_COIN = CurrencyConfig.METALS.Silver ? new ItemBase("coin_silver") : null;
     public static final ItemTFC GOLD_COIN = CurrencyConfig.METALS.Gold ? new ItemBase("coin_gold") : null;
+    public static final ItemTFC PLATINUM_COIN = CurrencyConfig.METALS.Platinum ? new ItemBase("coin_platinum") : null;
 }

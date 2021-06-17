@@ -46,6 +46,7 @@ public class RegistryHandler {
         if (CurrencyConfig.METALS.Copper) addAnvil(registry, DefaultMetals.COPPER, ModItems.COPPER_COIN, coinRules);
         if (CurrencyConfig.METALS.Silver) addAnvil(registry, DefaultMetals.SILVER, ModItems.SILVER_COIN, coinRules);
         if (CurrencyConfig.METALS.Gold) addAnvil(registry, DefaultMetals.GOLD, ModItems.GOLD_COIN, coinRules);
+        if (CurrencyConfig.METALS.Platinum) addAnvil(registry, DefaultMetals.PLATINUM, ModItems.PLATINUM_COIN, coinRules);
     }
 
     private static void addAnvil(IForgeRegistry<AnvilRecipe> registry, ResourceLocation material, ItemTFC item, ForgeRule[] forgeRules) {
