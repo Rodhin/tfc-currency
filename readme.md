@@ -25,4 +25,4 @@ This is an addon for [TerraFirmaCraft TNG](https://github.com/TerraFirmaCraft/Te
 - UeberallGebannt: German translation and updated textures to match TFC materials 
 
 
-[![Versions](http://cf.way2muchnoise.eu/versions/For%20MC_tfc-currency_all.svg)](http://www.curseforge.com/minecraft/mc-mods/tfc-currency) [![Downloads](https://cf.way2muchnoise.eu/author/full_tfc-currency_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/tfc-currency)
+[![Versions](http://cf.way2muchnoise.eu/versions/For%20MC_tfc-currency_all.svg)](https://www.curseforge.com/minecraft/mc-mods/tfc-currency) [![Downloads](http://cf.way2muchnoise.eu/author/full_tfc-currency_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/tfc-currency)
